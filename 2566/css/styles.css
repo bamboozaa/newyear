@@ -1,0 +1,140 @@
+/* 
+    Document   : styles
+    Created on : Oct 29, 2015, 3:57:05 PM
+    Author     : sirivimol_tha
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+.txtred {
+    color: #F00;
+    font-weight: bold;
+}
+.tblpopup td {
+    padding: 3px;
+}
+.glyphicon-refresh-animate {
+    animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+@-webkit-keyframes spin2 {
+    from {
+    -webkit-transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+}
+}
+@keyframes spin {
+    from {
+    transform: scale(1) rotate(0deg);
+}
+to {
+    transform: scale(1) rotate(360deg);
+}
+}
+.adoc {
+    color: #000000;
+    text-decoration: none;
+}
+.adoc:hover {
+    color: #000000;
+}
+#divno {
+    font-size: 7em;
+    font-weight: bold;
+    position: absolute;
+    top: 380px;
+    left: 330px;
+    width: 380px;
+    height: 124px;
+    text-align: center;
+}
+#btndraw {
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    width: 240px;
+    height: 100px;
+    background-image: url(../images/HNY_Button.png);
+}
+#btndraw:hover {
+    animation-name: example;
+    animation-duration: 1s;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    width: 240px;
+    height: 131px;
+    background-image: url(../images/HNY_Button.png);
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {
+    height: 100px;
+}
+to {
+    height: 131px;
+}
+}
+/* Standard syntax */
+@keyframes example {
+    from {
+    height: 100px;
+}
+to {
+    height: 131px;
+}
+}
+#divshow {
+    position: relative;
+    height: 709px;
+    width: 1024px;
+    margin: auto;
+}
+#divbgdraw {
+    position: relative;
+    height: 709px;
+    width: 1024px;
+    margin: auto;
+    background-image: url(../images/HNY2566-Lucky.jpg);
+
+}
+#divbgshow {
+    position: absolute;
+    top: 0px;
+    height: 709px;
+    width: 1024px;
+    margin: auto;
+    background-image: url(../images/HNY2566.jpg);
+
+}
+#divdraw {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    width: 900px;
+    height: 550px;
+    padding: 5px;
+
+}
+.tdlucky {
+    vertical-align: text-top;
+    padding: 3px;
+    font-size: 36px;
+}
+
+.tdlucky2 {
+
+    font-size: x-large;
+}
+.divlucky {
+    display: none;
+}
